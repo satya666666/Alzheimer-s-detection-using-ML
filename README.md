@@ -3,4 +3,4 @@
   2. Created a software which helps to detect the Alzheimer's disease by the help of technology.
 
 
-<img src="relative/path/in/repository/to/image.svg" width="128"/>
+<img src="img/26 (45).jpg" width="128"/> <img src="img/26 (46).jpg" width="128"/>
