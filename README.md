@@ -129,7 +129,7 @@ Add the following icons to the `icons/` directory:
 - `i_to_l.pkl`: Mapping of class indices to class labels.
 
 ## Authors
--**Satyam Gupta**
+- **Satyam Gupta**
 - **Saurav Sharma**
 - **Vaibhav Gupta**
 - **Vikash Kumar Singh**
@@ -141,78 +141,4 @@ Add the following icons to the `icons/` directory:
 ## Disclaimer
 The model is for educational purposes only and not for clinical diagnosis. Unauthorized use of the application is prohibited.
 
-UI.py:
-
-This repository contains a Python-based Tkinter GUI application designed for testing machine learning models in Alzheimer's Detection. The application features an intuitive interface for selecting image files, initiating model training, and predicting results.
-
-Features
-User-Friendly Interface:
-
-Built with Tkinter for seamless interaction.
-Easy-to-navigate layout with labeled buttons and sections.
-Image Selection:
-
-Select .jpg image files for testing via a dialog box.
-Results:
-
-Display results of model predictions in real time.
-Current placeholder function prints a test output.
-Team Credits:
-
-Footer displays contributors' names.
-Requirements
-To run this project, ensure you have the following installed:
-
-Libraries:
-tkinter: For GUI design.
-Pillow: For handling and displaying images.
-Install these dependencies with:
-
-bash
-Copy code
-pip install pillow
-Folder Structure:
-Ensure the following directory structure for required assets:
-
-bash
-Copy code
-project_root/
-├── UI.py               # Main application script
-├── icons/              # Directory containing button icons
-│   ├── train.png
-│   ├── selectfile.png
-│   ├── result.png
-Running the Application
-Clone or download this repository to your local system.
-
-Navigate to the directory containing UI.py.
-
-Run the application with:
-
-bash
-Copy code
-python UI.py
-Interact with the Interface:
-
-Click on "Train Model" to initiate training (not implemented yet).
-Use "Select the Image file to test" to choose an image file.
-Click "Get Results" to see test output (currently hardcoded).
-How It Works
-File Selection
-The openfile() function allows users to browse and select .jpg image files using the askopenfile dialog.
-Model Results
-The getresult() function is a placeholder for actual prediction logic. It currently prints:
-sql
-Copy code
-YOU ARE NOT SUFFERING AD
-Authors
-Satyam Gupta
-Saurav Sharma
-Vaibhav Gupta
-Vikash Kumar Singh
-Customization
-To modify the UI:
-
-Update the text and button functionality as needed in UI.py.
-Replace icons in the icons/ folder for a personalized look.
 
